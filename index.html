@@ -11,16 +11,16 @@
         <div>
             <div>
                 <ul>
-                    <li>HOME</li>
-                    <li>GALLERY</li>
-                    <li>RESERVATIONS</li>
+                    <a href ="#home" id="link"><li>HOME</li></a>
+                    <a href ="#gallery"><li>GALLERY</li></a>
+                    <a href ="#reservations"><li>RESERVATIONS</li></a>
                 </ul>
             </div>
         </div>
         <!-- END NAV -->
         
         <!-- HOME -->
-        <div>
+        <div id ="home">
             <div>
                 <div>
                 <span>The Space Station</span>
@@ -31,7 +31,7 @@
         
         <!-- GALLERY -->
         <section>
-            <div>
+            <div id="gallery">
             <h1>Gallery</h1>
                 <div>
                     
@@ -140,6 +140,37 @@
             </div>
         </section>
         <!-- END GALLERY -->
+        
+        <!-- RSVP -->
+        <section>
+            <div id="reservations">
+                <div>
+                <h1>Reservations</h1>
+                    <div>
+                    <h2> <span>Your adventure is just around the moon.</span>
+                        <br /> Reserve your flight today!</h2>
+                        <p>
+                        Please provide us with your basic contact information.
+                        </p>
+                        <div>
+                        <form action="" method="post">
+                            <input class ="rsvp" type="text" value="First Name">
+                            <input class ="rsvp" type="text" value="Last Name">
+                            <input class ="rsvp" type="text" value="Email Address">
+                            <input class ="rsvp" type="text" value="Phone Number">
+                            <div class="form-spacer">
+                                <label class="terms">Terms and Conditions</label>
+                            </div>
+                            <div>
+                                <input type="submit" value="Submit">
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END RSVP -->
         
     </body>
 </html>
