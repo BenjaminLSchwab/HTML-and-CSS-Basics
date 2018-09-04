@@ -55,3 +55,26 @@ h1 {
 .squares:nth-child(4){
    background: green; 
 }
+
+/* HOVER EFFECTS */
+
+.container .squares:nth-child(-n+4):hover{
+    background-image: url(../Images/icons/smileyface1.png);
+    
+}
+
+.squares:nth-child(1):hover{
+   background: red; 
+}
+
+.squares:nth-child(2):hover{
+   background: blue; 
+}
+
+.squares:nth-child(3):hover{
+   background: green; 
+}
+
+.squares:nth-child(4):hover{
+   background: yellow; 
+}
